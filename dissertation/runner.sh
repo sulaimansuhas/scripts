@@ -1,5 +1,6 @@
 #!/bin/bash
 cd /users/suhassn/
+rm -rf "$1"bytes-test
 mkdir "$1"bytes-test
 cd "$1"bytes-test
 sudo ethtool -C enp6s0f0 rx-usecs 0
