@@ -39,6 +39,6 @@ echo "${tarr[@]}"
 echo "${darr[@]}"
 
 printf "%s\n" "${larr[@]}" > experiment-d"$duration"-t"$threads"-c"$connections".txt
-printf "%s\n" "${lsd[@]}" > experiment-d"$duration"-t"$threads"-c"$connections".txt
+printf "%s\n" "${lsd[@]}" >> experiment-d"$duration"-t"$threads"-c"$connections".txt
 printf "%s\n" "${tarr[@]}" >> experiment-d"$duration"-t"$threads"-c"$connections".txt
 printf "%s\n" "${darr[@]}" >> experiment-d"$duration"-t"$threads"-c"$connections".txt
